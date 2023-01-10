@@ -4,6 +4,9 @@ public class Main {
         task2();
         task3();
         task4();
+        task5();
+        task6();
+        task7();
 
     }
 
@@ -36,6 +39,30 @@ public class Main {
     public static void task4() {
         System.out.println("Циклы. Задача №4");
         for(int i = 10; i >= -10; i--) {
+            System.out.println(i);
+        }
+        System.out.println();
+    }
+
+    public static void task5() {
+        System.out.println("Циклы. Задача №5");
+        for(int i = 1904; i <= 2096; i = i + 4) {
+            System.out.println(i + " год является високосным");
+        }
+        System.out.println();
+    }
+
+    public static void task6() {
+        System.out.println("Циклы. Задача №6");
+        for(int i = 7; i <= 98; i = i + 7) {
+            System.out.println(i);
+        }
+        System.out.println();
+    }
+
+    public static void task7() {
+        System.out.println("Циклы. Задача №7");
+        for(int i = 1; i <= 512; i = i*2) {
             System.out.println(i);
         }
         System.out.println();
