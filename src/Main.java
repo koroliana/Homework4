@@ -11,6 +11,47 @@ public class Main {
         task9();
         task10();
 
+        task11();
+        task12();
+
+    }
+
+    public static void task11() {
+        System.out.println("Циклы. Часть2. Задача №1");
+        int monthlyContribution = 15000;
+        int total1 = 0;
+        int i = 0;
+        System.out.println("Если просто копить по 15000 рублей в месяц:");
+        while (total1 < 2_459_000) {
+            i++;
+            total1 = total1+monthlyContribution;
+            System.out.println("Месяц " + i + ", сумма накоплений равна "+ total1 +" рублей");
+        }
+        int total2 = 0;
+        int j = 0;
+        System.out.println();
+        System.out.println("Если откладывать 15000 рублей в месяц на депозит под 12% годовых:");
+        while (total2 < 2_459_000) {
+            j++;
+            total2 = total2 + total2/100 + monthlyContribution;
+            System.out.println("Месяц " + j + ", сумма накоплений равна "+ total2 +" рублей");
+        }
+        System.out.println();
+    }
+
+    public static void task12() {
+        System.out.println("Циклы. Часть2. Задача №2");
+        int j = 1;
+        while (j <= 10) {
+            System.out.print(j + " ");
+            j++;
+        }
+
+        System.out.println();
+        for(int i = 10; i > 0; i--) {
+            System.out.print(i+" ");
+        }
+        System.out.println();
     }
 
     public static void task1() {
