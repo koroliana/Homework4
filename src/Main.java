@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-    ArraysPartOne.task1();
+    ArraysPartOne.task1_2();
+    ArraysPartOne.task3();
+    ArraysPartOne.task4();
 
 
     }
