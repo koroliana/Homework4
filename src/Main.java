@@ -4,6 +4,10 @@ public class Main {
     ArraysPartOne.task3();
     ArraysPartOne.task4();
 
+    ArraysPartTwo.task1();
+    ArraysPartTwo.task2();
+
+
 
     }
 

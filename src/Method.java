@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public interface Method {
     static void printMassive(Object[] objectMassive) { //тот же метод внутри класса ArraysPartOne не объявлялся, objectMassive подсвечивался красным
         for (int i = 0; i<objectMassive.length;i++) {
@@ -57,6 +59,43 @@ public interface Method {
             else System.out.print(doubleMassive[i] + ", ");
         }
         System.out.println();
+    }
+
+    static int[] generateRandomArray() {
+        Random random = new Random();
+        int[] arr = new int[30];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = random.nextInt(100_000) + 100_000;
+        }
+        return arr;
+    }
+
+    static int sumArray(int[] intMassive) {
+        int sum = 0;
+        for (int number: intMassive) {
+            sum = sum + number;
+        }
+        return sum;
+    }
+
+    static int findArrayMin(int[] intMassive) {
+        int min = intMassive[0];
+        for (int i = 1; i < intMassive.length; i++) {
+            if (min > intMassive[i]) {
+                    min = intMassive[i];
+            }
+        }
+        return min;
+    }
+
+    static int findArrayMax(int[] intMassive) {
+        int max = intMassive[0];
+        for (int i = 1; i < intMassive.length; i++) {
+            if (max < intMassive[i]) {
+                max = intMassive[i];
+            }
+        }
+        return max;
     }
 
 }
