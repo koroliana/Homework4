@@ -19,4 +19,19 @@ public class ArraysPartTwo {
         System.out.println();
     }
 
+    public static void task3() {
+        System.out.println("Массивы. Часть2. Задача №3");
+        int[] arr = Method.generateRandomArray();
+        double average = Method.findArrayAverage(arr);
+        System.out.println("Средняя сумма трат за месяц составила " + average + " рублей.");
+        System.out.println();
+    }
+
+    public static void task4() {
+        System.out.println("Массивы. Часть2. Задача №4");
+        char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        Method.reversePrintMassive(reverseFullName);
+
+    }
+
 }

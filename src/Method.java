@@ -61,6 +61,13 @@ public interface Method {
         System.out.println();
     }
 
+    static void reversePrintMassive(char[] charMassive) {
+        for (int i = charMassive.length-1; i>=0; i--) {
+            System.out.print(charMassive[i]);
+        }
+        System.out.println();
+    }
+
     static int[] generateRandomArray() {
         Random random = new Random();
         int[] arr = new int[30];
@@ -96,6 +103,11 @@ public interface Method {
             }
         }
         return max;
+    }
+
+    static double findArrayAverage(int[] intMassive) {
+        double sum = sumArray(intMassive);
+        return sum/intMassive.length;
     }
 
 }

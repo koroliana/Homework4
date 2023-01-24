@@ -6,6 +6,8 @@ public class Main {
 
     ArraysPartTwo.task1();
     ArraysPartTwo.task2();
+    ArraysPartTwo.task3();
+    ArraysPartTwo.task4();
 
 
 
