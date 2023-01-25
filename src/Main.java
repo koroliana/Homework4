@@ -1,6 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-    cycles();
+    ArraysPartOne.task1_2();
+    ArraysPartOne.task3();
+    ArraysPartOne.task4();
+
+    ArraysPartTwo.task1();
+    ArraysPartTwo.task2();
+    ArraysPartTwo.task3();
+    ArraysPartTwo.task4();
+
 
 
     }
