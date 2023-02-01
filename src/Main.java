@@ -1,18 +1,29 @@
 public class Main {
     public static void main(String[] args) {
-    ArraysPartOne.task1_2();
-    ArraysPartOne.task3();
-    ArraysPartOne.task4();
-
-    ArraysPartTwo.task1();
-    ArraysPartTwo.task2();
-    ArraysPartTwo.task3();
-    ArraysPartTwo.task4();
-
+    MethodsPartOne.task1();
+    MethodsPartOne.task2();
+    MethodsPartOne.task3();
 
 
     }
 
+    public static void strings() {
+        StringTasks.task1();
+        StringTasks.task2();
+        StringTasks.task3();
+
+    }
+
+    public static void arrays() {
+        ArraysPartOne.task1_2();
+        ArraysPartOne.task3();
+        ArraysPartOne.task4();
+
+        ArraysPartTwo.task1();
+        ArraysPartTwo.task2();
+        ArraysPartTwo.task3();
+        ArraysPartTwo.task4();
+    }
     public static void cycles() {
         CyclesPartOne.task1();
         CyclesPartOne.task2();
