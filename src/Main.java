@@ -1,12 +1,18 @@
 public class Main {
     public static void main(String[] args) {
-    StringTasks.task1();
-    StringTasks.task2();
-    StringTasks.task3();
+    MethodsPartOne.task1();
+    MethodsPartOne.task2();
+    MethodsPartOne.task3();
 
 
     }
 
+    public static void strings() {
+        StringTasks.task1();
+        StringTasks.task2();
+        StringTasks.task3();
+
+    }
 
     public static void arrays() {
         ArraysPartOne.task1_2();
